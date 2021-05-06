@@ -1,0 +1,25 @@
+clear = limpar tela
+ls -al = lista todos os arquivos na pasta
+vim <filename> = abrir o editor de arquivos
+touch <filename> = criar arquivo
+git init = inicia o repositorio
+git status = mostra o status atual do projeto
+git log = mostra as atualizações
+git log --oneline = lista todos commit
+git add <file> = adiciona o arquivo para o commit
+git add . = adiciona todos os arquivos para o commit
+git restore <file> = descarta as mudanças realizadas no arquivo
+git commit -m "<message>" = realiza o commit com a mensagem(titulo)
+git checkout <codigo commit> -- <filename> = recupera um ponto da historia 
+git clean -n = exibir os arquivos que serão deletados para sempre
+git clean -f = remove os arquivos para sempre
+git revert HEAD~<number> = voltar em um ponto da historia e criar um novo commit 
+git revert <codigo commit> = voltar em um ponto da historia e criar um novo commit
+git diff = exibir a modificação realizada
+git diff --color-words = exibir exatamente as palavras alteradas
+git commit -am "<message>" = adiciona e realiza o commit com a messagem (atalho/funciona apenas quando o arquivo já está rastreado)
+git show <codigo commit> -- <caminho pasta> = atalho para mostrar exatamente o que já tem no repositorio em um momento da historia
+git rm -r --cached . = retirando tudo do cache 
+------------------------------
+esc :wq = sair do vim
+esc :w! = sair do vim sem salvar nenhuma alteração
